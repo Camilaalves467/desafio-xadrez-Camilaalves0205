@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main (){
+  int a = 0;
+  int jogador1;
+  int opcao;
+
+
+printf ("***Jogo de Xadrez***");
+//dando escolha de movimento
+//rodando somente com jogador 1
+//peças serão consideradas unitárias
+printf ("Jogador 1, escolha qual peça irá jogar primeiro: \n");
+printf ("1. Rei \n");
+printf ("2. Dama \n");
+printf ("3. Bispo \n");
+printf ("4. Cavalo \n");
+printf ("5. Torre \n");
+printf ("Peões \n");
+printf ("Opção Invalida \n");
+scanf ("%d", &opcao);
+
+switch (opcao){
+    case 1:
+    for (int a = 0; a < 2; a++) // movimentar objeto 7x para a direção
+  {
+    printf ("Rei: Movendo Rei para frente 2x");
+}
+return 0;
+}
+
+//// repetição WHILE ////
+ //  while (a < 3){ // movimentar objeto 3x para a direção
+   // printf ("Movendo Torre para frente!\n");
+    // a++;
+ //}
+
+//// repetição DO WHILE ////
+//    do {
+  //      printf ("Movendo Bispo para cima na diagonal esquerda!\n");
+  //      a++;
+  //  } while (a < 2); // movimentar objeto 2x para a direção
+
+//// repetição FOR ////
+   //for (int a = 0; a < 7; a++) // movimentar objeto 7x para a direção
+  //{
+    //   printf ("Movendo Rainha para trás!\n");
+  // }
+
+/////////////////////////movimentar cavalo////////////////////
+
+
+
+return 0;
+}
+}
